@@ -1,7 +1,7 @@
 
 .container {
     width: 80%;
-    height: 320px;
+    height: 266px;
     margin: 10px auto;
     background-color: #fff;
     z-index: 3;
@@ -17,7 +17,7 @@
 .col {
     width: calc(100/6);
     box-sizing: border-box;
-    padding: 25px 25px;    
+    padding: 30px 25px;    
     /* margin-bottom: 2 0px;  */
 }
 
@@ -28,5 +28,6 @@
 
 .item img {
     width: 150px;
-    height: 100%;
+    height: 67px;
+    cursor: pointer;
 }
