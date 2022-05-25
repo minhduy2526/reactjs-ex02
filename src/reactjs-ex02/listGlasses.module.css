@@ -1,0 +1,32 @@
+
+.container {
+    width: 80%;
+    height: 320px;
+    margin: 10px auto;
+    background-color: #fff;
+    z-index: 3;
+    position: relative;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.col {
+    width: calc(100/6);
+    box-sizing: border-box;
+    padding: 25px 25px;    
+    /* margin-bottom: 2 0px;  */
+}
+
+.item {
+    border: 1px solid black;
+    color: #fff;
+}
+
+.item img {
+    width: 150px;
+    height: 100%;
+}

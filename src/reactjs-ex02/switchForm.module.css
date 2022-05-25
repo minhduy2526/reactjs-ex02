@@ -1,0 +1,70 @@
+.container {
+  width: 100%;
+  height: 450px;
+  display: flex;
+  z-index: 1;
+}
+
+.left {
+  width: 50%;
+  height: 100%;
+  z-index: 1;
+  display: flex;
+  justify-content: end;
+  position: relative;
+}
+
+.imgModel {
+  height: 350px;
+  width: 270px;
+  margin-right: 150px;
+  margin-top: 60px;
+  position: relative;
+}
+
+.imgModel img {
+  width: 132px;
+  height: 65px;
+  margin-left: 68px;
+  margin-top: 89px;
+}
+
+.content {
+  position: absolute;
+  width: 100%;
+  height: 120px;
+  background-color: rgba(255, 127, 80, 0.514);
+  z-index: 3;
+  margin-top: 30px;
+  bottom: 0;
+}
+
+.content h1 {
+  font-size: 16px;
+  color: rgb(52, 52, 220);
+  padding-left: 10px;
+}
+
+.content p {
+    color: white;
+    font-size: 15px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.right {
+  width: 50%;
+  height: 100%;
+  z-index: 1;
+  display: flex;
+  justify-content: start;
+}
+
+.right img {
+  height: 350px;
+  width: 270px;
+  z-index: 1;
+  margin-left: 150px;
+  margin-top: 60px;
+  position: absolute;
+}
